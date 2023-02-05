@@ -1,0 +1,25 @@
+{
+    "name": "devmamun/big-number-calculator",
+    "description": "The package is allow you to calculate big number",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devmamun\\BigNumberCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devmamun\\BigNumberCalculator\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Al Mamun",
+            "email": "mamun.weber@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
