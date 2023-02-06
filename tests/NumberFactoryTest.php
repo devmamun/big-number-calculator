@@ -11,7 +11,7 @@ class NumberFactoryTest extends TestCase
     public function it_returns_summation()
     {
         $number = new NumberFactory();
-        $sum = $number->addition(4, 6);
+        $sum = $number->add(4, 6);
 
         $this->assertEquals(10, $sum);
     }
@@ -20,7 +20,7 @@ class NumberFactoryTest extends TestCase
     public function it_returns_subtraction()
     {
         $number = new NumberFactory();
-        $sum = $number->subtraction(10, 6);
+        $sum = $number->sub(10, 6);
 
         $this->assertEquals(4, $sum);
     }
